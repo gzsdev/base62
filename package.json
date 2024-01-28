@@ -1,0 +1,31 @@
+{
+  "name": "@gzs.dev/base62",
+  "version": "1.0.0",
+  "description": "Base62 encoding lib for string inputs that perform the same way as Java base62 encoding lib",
+  "main": "dist/base62.cjs.js",
+  "module": "dist/base62.esm.js",
+  "browser": "dist/base62.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "rollup": "^4.9.5",
+    "ts-jest": "^29.1.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
