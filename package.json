@@ -1,5 +1,5 @@
 {
-  "name": "@gzs.dev/base62",
+  "name": "@gzsdev/base62",
   "version": "1.0.0",
   "description": "Base62 encoding lib for string inputs that perform the same way as Java base62 encoding lib",
   "main": "dist/base62.cjs.js",

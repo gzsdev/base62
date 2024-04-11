@@ -5,12 +5,12 @@ The primary goal of this project is to develop a JavaScript-based Base62 encodin
 ## Usage
 Installation
 ```
-npm -i @gzs.dev/base62
+npm -i @gzsdev/base62
 ```
 
 Application
 ```
-import { encode, decode } from "@gzs.dev/base62";
+import { encode, decode } from "@gzsdev/base62";
 
 encode("123"); // "DWjr"
 decode("DWjr"); // "123"
